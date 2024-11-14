@@ -59,6 +59,17 @@ class LatexEditorApp(QMainWindow):
                 ("Fracción", r"\frac{}{}"), ("Raíz", r"\sqrt{}"), ("Suma", "+"),
                 ("Resta", "-"), ("Multiplicación", r"\times"), ("División", r"\div")
             ],
+            "Operaciones Matemáticas": [
+            ("Raíz cuadrada", r"\sqrt{x}"), ("Raíz enésima", r"\sqrt[n]{x}"),
+            ("Potencia", r"x^n"), ("Subíndice", r"x_n"), ("Fracción", r"\frac{a}{b}"),
+            ("Suma", r"\sum_{i=1}^n"), ("Producto", r"\prod_{i=1}^n"),
+            ("Integral definida", r"\int_{a}^{b}"), ("Integral doble", r"\iint"),
+            ("Integral triple", r"\iiint")
+            ],
+            "Símbolos Químicos": [
+            ("H₂O", r"H_2O"), ("CO₂", r"CO_2"), ("O₂", r"O_2"), ("CH₄", r"CH_4"),
+            ("Na⁺", r"Na^+"), ("Cl⁻", r"Cl^-"), ("Fe³⁺", r"Fe^{3+}"), ("SO₄²⁻", r"SO_4^{2-}")
+            ],
             "Funciones Trigonométricas y Logarítmicas": [
                 ("sin", r"\sin"), ("cos", r"\cos"), ("tan", r"\tan"),
                 ("log", r"\log"), ("ln", r"\ln"), ("exp", r"\exp")
