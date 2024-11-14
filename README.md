@@ -75,3 +75,121 @@ u otro ejemplo:
 - **La fórmula no se renderiza**  
   Verifica que el código LaTeX esté bien escrito. LaTeX es sensible a errores de sintaxis. Si el error persiste, revisa los mensajes en la etiqueta de errores para obtener más información.
 
+
+### 7  Añadir más símbolos
+Poco a poco iré añadiendo más de los siguientes símbolos:
+
+
+
+#### 1. **Símbolos Básicos**
+
+| Símbolo | Código LaTeX | Descripción |
+|---------|--------------|-------------|
+| +     | +          | Suma |
+| -     | -          | Resta |
+| *     | \cdot      | Multiplicación |
+| /     | /          | División |
+| =     | =          | Igualdad |
+| ≠     | \neq       | Diferente de |
+| <     | <          | Menor que |
+| >     | >          | Mayor que |
+| ≤     | \leq       | Menor o igual |
+| ≥     | \geq       | Mayor o igual |
+
+#### 2. **Operaciones Matemáticas**
+
+| Símbolo        | Código LaTeX        | Descripción |
+|----------------|---------------------|-------------|
+| √              | \sqrt{x}          | Raíz cuadrada |
+| n√           | \sqrt[n]{x}       | Raíz enésima |
+| Potencias      | x^n               | Potencia |
+| Subíndice      | x_n               | Subíndice |
+| Fracción       | \frac{a}{b}       | Fracción |
+| Suma           | \sum_{i=1}^n      | Suma |
+| Producto       | \prod_{i=1}^n     | Producto |
+| Integral       | \int_{a}^{b}      | Integral definida |
+| Integral doble | \iint             | Integral doble |
+| Integral triple| \iiint            | Integral triple |
+
+#### 3. **Funciones Trigonométricas y Logarítmicas**
+
+| Símbolo        | Código LaTeX       | Descripción |
+|----------------|--------------------|-------------|
+| sin         | \sin             | Seno |
+| cos         | \cos             | Coseno |
+| tan         | \tan             | Tangente |
+| log         | \log             | Logaritmo |
+| ln          | \ln              | Logaritmo natural |
+| exp         | \exp             | Exponencial |
+
+#### 4. **Letras Griegas**
+
+| Símbolo      | Código LaTeX   | Descripción     |
+|--------------|----------------|-----------------|
+| α            | \alpha       | Alfa |
+| β            | \beta        | Beta |
+| γ            | \gamma       | Gamma |
+| Δ            | \Delta       | Delta mayúscula |
+| θ            | \theta       | Theta |
+| λ            | \lambda      | Lambda |
+| π            | \pi          | Pi |
+| σ            | \sigma       | Sigma |
+| φ            | \phi         | Phi |
+| ω            | \omega       | Omega |
+
+#### 5. **Relaciones Lógicas**
+
+| Símbolo   | Código LaTeX | Descripción         |
+|-----------|--------------|---------------------|
+| ∈       | \in        | Pertenece a |
+| ∉       | \notin     | No pertenece a |
+| ∪       | \cup       | Unión |
+| ∩       | \cap       | Intersección |
+| ⊆       | \subseteq  | Subconjunto o igual |
+| ⊂       | \subset    | Subconjunto propio |
+| ⊇       | \supseteq  | Superconjunto o igual |
+| ⊃       | \supset    | Superconjunto propio |
+
+#### 6. **Símbolos de Flechas**
+
+| Símbolo       | Código LaTeX | Descripción       |
+|---------------|--------------|-------------------|
+| →           | \rightarrow| Flecha derecha   |
+| ←           | \leftarrow | Flecha izquierda |
+| ↑           | \uparrow   | Flecha arriba    |
+| ↓           | \downarrow | Flecha abajo     |
+| ⇌           | \leftrightarrow | Flecha doble |
+| ⇒           | \Rightarrow| Implicación      |
+| ⇔           | \Leftrightarrow | Equivalencia |
+
+#### 7. **Símbolos de Conjuntos**
+
+| Símbolo       | Código LaTeX | Descripción       |
+|---------------|--------------|-------------------|
+| ℕ           | \mathbb{N} | Números naturales |
+| ℤ           | \mathbb{Z} | Números enteros   |
+| ℚ           | \mathbb{Q} | Números racionales|
+| ℝ           | \mathbb{R} | Números reales    |
+| ℂ           | \mathbb{C} | Números complejos |
+
+#### 8. **Símbolos de Álgebra Lineal**
+
+| Símbolo         | Código LaTeX        | Descripción |
+|-----------------|---------------------|-------------|
+| Matriz          | \begin{matrix} ... \end{matrix} | Matriz sin paréntesis |
+| Determinante    | \begin{vmatrix} ... \end{vmatrix} | Determinante |
+| Vector columna  | \begin{bmatrix} ... \end{bmatrix} | Matriz entre corchetes |
+| Vector fila     | \begin{pmatrix} ... \end{pmatrix} | Matriz entre paréntesis |
+| Norma           | \|x\|            | Norma de un vector |
+
+#### 9. **Otros Símbolos Útiles**
+
+| Símbolo | Código LaTeX |   Descripción    |
+| ------- | ------------ | ---------------- |
+| ∞       | \infty       | Infinito         |
+| ∂       | \partial     | Derivada parcial |
+| °       | ^\circ       | Grado            |
+|         | x            |                  |
+| Punto   | \cdot        | Punto centrado   |
+| ⊥       | \perp        | Perpendicular    |
+|         |              |                  |
