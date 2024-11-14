@@ -153,7 +153,7 @@ class LatexEditorApp(QMainWindow):
             # Usar Ghostscript para convertir el PDF a PNG con una resolución mayor
             subprocess.run([
                 "gs", "-sDEVICE=pngalpha", "-o", png_path,
-                "-r300", pdf_path  # Cambia "-r144" a "-r300" o un valor mayor para mejor resolución
+                "-r150", pdf_path  # Cambia "-r144" a "-r300" o un valor mayor para mejor resolución
             ], check=True)
 
             # Cargar la imagen generada en QLabel
